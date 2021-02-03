@@ -1,0 +1,544 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+/*header-page*/
+
+.header {
+    background-color: #EEEFF1;
+    padding-bottom: 120px;
+}
+
+.logo {
+    padding-top: 34px;
+
+}
+
+.nav_list {
+    padding-top: 59px;
+
+}
+
+.nav_list_item a {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+    outline: none;
+    margin-right: 42px;
+    font-weight: 500;
+    transition: 0.5s ease;
+
+}
+
+.nav_list_item a:hover {
+    color: #34547A;
+
+}
+
+
+.offer {
+    padding-top: 100px;
+
+}
+
+.offer_frame_img {
+
+    margin-top: 35px;
+}
+
+.offer_title {
+    font-size: 48px;
+    font-weight: 500;
+
+
+}
+
+.offer_description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-top: 20px;
+}
+
+.offer_button {
+    background-color: #34547A;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    width: 225px;
+    height: 65px;
+    letter-spacing: 0.1em;
+    margin-top: 35px;
+
+}
+
+.offer_button:hover {
+    background-color: #4d6b8f;
+}
+
+.offer_button:active {
+    outline: none;
+}
+
+.offer-button:focus {
+    outline: none;
+}
+
+/*aboutMe page*/
+
+.aboutMe {
+    padding-top: 115px;
+
+}
+
+.aboutMe_title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.aboutMe_description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+/*projects-page*/
+
+.project {
+    background-color: #34547A;
+    /*height: 255px;*/
+    margin-top: 30px;
+
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.project-item {
+    background: url(".. /img/project.png") no-repeat;
+    display: inline-block;
+
+}
+
+.project-item-title {
+    padding-left: 70px;
+    padding-top: 3px;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFF;
+    margin: 0;
+
+}
+
+.project-item-description {
+    color: #FFF;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-top: 2px;
+
+}
+
+/*mySkills-page*/
+.mySkills {
+    padding-bottom: 100px;
+
+}
+
+.mySkills_block {
+    padding-top: 200px;
+}
+
+.mySkills_block .mySkills_title {
+    font-weight: 500;
+    font-size: 32px;
+    padding-bottom: 15px;
+
+}
+
+
+.mySkills_block .mySkills_description {
+    color: #727272;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+hr {
+    background-color: #34547A;
+    height: 4px;
+    width: 400px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.mySkills_me {
+    padding-top: 100px;
+}
+
+.work {
+    background-color: #EEEFF1;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.work_title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.work_description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.vector {
+    position: absolute;
+    left: 45%;
+    top: 56%;
+}
+
+/*microsoft-page*/
+
+.microsoft {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.microsoft_item {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+/*website-page*/
+
+.website {
+    background-color: #EEEFF1;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.website_title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.website_description {
+    font-size: 16px;
+
+    color: #727272;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.form {
+    text-align: center;
+}
+
+#website_input {
+    width: 255px;
+    height: 50px;
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    margin-left: 30px;
+
+}
+
+#website_textarea {
+    width: 545px;
+    height: 175px;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    margin-left: 29px;
+    padding: 10px 15px;
+    margin-bottom: 45px;
+}
+
+
+.form_button {
+    background-color: #34547A;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    width: 225px;
+    height: 65px;
+    letter-spacing: 0.1em;
+    display: block;
+    margin: auto;
+}
+
+.form_button:hover {
+    background-color: #4d6b8f;
+}
+
+.form_button:active {
+    outline: none;
+}
+
+.form_button:focus {
+    outline: none;
+}
+
+.basement {
+    /*height: 151px;*/
+    background-color: #34547A;
+}
+
+
+.basement_title {
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.basement_description {
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+
+.basement_logos {
+    display: flex;
+    padding-top: 58px;
+    padding-bottom: 49px;
+}
+
+.vk {
+    margin-left: 15px;
+
+}
+
+/*media-queries*/
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    body {
+        overflow-x: hidden;
+
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 993px) {
+    body {
+        overflow-x: hidden;
+
+    }
+
+    .offer_title {
+        margin-left: 50px;
+    }
+
+    .offer_description {
+        margin-left: 25px;
+    }
+
+    .offer_button {
+        margin-left: 30px;
+    }
+
+    .mySkills_me {
+        width: 400px;
+        height: 415px;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    .code {
+        text-align: center;
+        width: 715px;
+    }
+
+    .microsoft .row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        display: inline-block;
+        padding-left: 175px;
+
+    }
+
+    .project .row {
+        flex-direction: column;
+        padding-left: 200px;
+    }
+
+    .project-item {
+        margin-top: 30px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .offer {
+        padding-left: 76px;
+    }
+
+    .offer_frame_img {
+        padding-left: 15px;
+    }
+
+    .offer_title {
+
+        padding-top: 55px;
+    }
+
+    .offer_description {
+        margin-right: 100px;
+        text-align: center;
+    }
+
+    .offer_button {
+        margin-left: 85px;
+    }
+
+    .project .row {
+        flex-direction: column;
+        padding-left: 175px;
+    }
+
+    .project-item {
+        margin-top: 30px;
+    }
+
+    .mySkills_me {
+        width: 102%;
+    }
+
+    .code {
+        width: 102%;
+        text-align: center;
+    }
+
+    .work .vector {
+        left: 41.5%;
+        top: 59%;
+    }
+
+
+    .microsoft .row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        display: inline-block;
+        padding-left: 100px;
+
+    }
+
+    #website_input {
+        margin-bottom: 10px;
+    }
+
+    #website_textarea {
+        margin-left: -7px;
+    }
+
+    .basement_logos {
+        margin-left: 159px;
+        padding-top: 25px;
+    }
+
+}
+
+
+@media only screen and (min-width: 322px) and (max-width:576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .offer_title {
+        padding-left: 15px;
+        padding-top: 55px;
+    }
+
+    .offer_description {
+        padding-left: 10px;
+    }
+
+    .project .row {
+        flex-direction: column;
+        padding-left: 77px;
+    }
+
+    .project-item {
+        margin-top: 30px;
+    }
+
+
+    .mySkills_me {
+        width: 98%;
+    }
+
+    .code {
+        width: 102%;
+        text-align: center;
+    }
+
+    .work .vector {
+        left: 41.5%;
+        top: 68%;
+        width: 72px;
+    }
+
+
+    .microsoft .row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        display: inline-block;
+        padding-left: 35px;
+
+    }
+
+
+    #website_input {
+        margin-bottom: 10px;
+    }
+
+    #website_textarea {
+        margin-left: -7px;
+    }
+
+    .basement_logos {
+        margin-left: 90px;
+        padding-top: 14px;
+    }
+
+
+}

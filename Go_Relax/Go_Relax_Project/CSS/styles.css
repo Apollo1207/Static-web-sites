@@ -1,0 +1,394 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 15.5px;
+}
+
+.navbar {
+    background-color: #E91C1C;
+    height: 60px;
+    width: 100%;
+}
+
+.navbar-collapse {
+    background-color: #E91C1C;
+    border: none;
+}
+
+
+.navbar-inverse {
+    padding-top: 5px;
+    border: none;
+
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: -8px;
+    padding: 15px 25px !important;
+    border: none;
+
+}
+
+.nav>li {
+    border: none;
+}
+
+
+.nav>li>a {
+    color: #ffffff !important;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.nav>li>a:hover {
+    color: #aeaeae !important;
+}
+
+
+.home {
+    background: url(../IMG/1.jpg) no-repeat 50% 50%; center top і адапт
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    padding-top: 190px;
+    padding-bottom: 210px;
+    color: #fff;
+}
+
+.two {
+    margin-top: 50%;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 5px double #fff;
+    padding: 8px 8px;
+    margin-top: 50%;
+}
+
+.feature {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    margin-top: 15%;
+
+}
+
+@media (max-width: 660px) and (min-width: 591px) {
+    .title {
+        font-size: 52px;
+        padding: 7px;
+    }
+
+    .feature {
+        font-size: 22px;
+        margin-top: 60px;
+    }
+}
+
+
+@media (max-width: 591px) and (min-width: 483px) {
+    .title {
+        font-size: 42px;
+        padding: 7px;
+    }
+
+    .feature {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 483px) and (min-width: 424px) {
+    .title {
+        font-size: 36px;
+        padding: 7px;
+    }
+
+    .feature {
+        font-size: 19px;
+    }
+
+}
+
+
+
+@media (max-width: 424px) and (min-width: 365px) {
+    .title {
+        font-size: 30px;
+        padding: 7px;
+    }
+
+    .feature {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 365px) and (min-width: 300px) {
+    .title {
+        font-size: 23px;
+        padding: 7px;
+    }
+
+    .feature {
+        font-size: 17px;
+    }
+}
+
+.fa {
+    color: #E91C1C;
+    font-size: 4.8em;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+.g-pad .fa {
+    font-size: 0.85em;
+    padding-right: 5px !important;
+}
+
+
+.g-pad {
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 33px;
+    text-align: center;
+    color: #E91C1C;
+    padding-top: 9%;
+}
+
+
+
+.services .col-sm-4 .fa {
+    padding-left: 41%;
+    padding-top: 50px;
+}
+
+.services .main-panel h4 {
+    padding-top: 30px;
+    padding-bottom: 6px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+
+}
+
+.services .main-panel p {
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+/*_-------*/
+
+.services .panelsa {
+    border: 1.5px solid silver;
+    padding-top: 27px;
+    padding-left: 16px;
+    margin-top: 18px;
+    margin-bottom: 20%;
+}
+
+.services .panelsar {
+    padding-right: 26px;
+    padding-bottom: 23px;
+}
+
+.services .panelsa h4 {
+    font-weight: 900;
+    font-size: 22px;
+    padding-bottom: 6px;
+
+}
+
+
+/*----*/
+
+.pricing {
+    background-color: #f5f3f3;
+    padding-bottom: 8%;
+
+}
+
+.pricing .g-pad {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+
+.plane {
+    border: 0px solid;
+    background-color: #fff;
+}
+
+.pricing .plane .fas {
+    font-size: 1.1em !important;
+    color: #E91C1C;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pricing .plane .mains-price {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.pricing .plane p {
+    border-bottom: 1px dotted #e1e1e1;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.pricing .plane .main-price {
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 60px;
+    color: #FF8500;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+.pricing .plane .main-price small {
+    color: #000;
+    font-weight: 900;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.pricing .plane .btn {
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 10px 16px;
+    outline: none;
+}
+
+.pricing .bottom {
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.port {
+    padding-bottom: 8%;
+}
+
+.port .portfolio img {
+    width: 93%;
+}
+
+.port .portfolio {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.5px solid silver;
+    text-align: center;
+}
+
+.port .col-sm-4 {
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.port .g-pad {
+    margin-bottom: 7%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0px;
+    right: 0px;
+    background-color: #E91C1C;
+    overflow: hidden;
+    width: 96.5%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.portfolio:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.contact {
+    background-color: #f5f3f3;
+    padding-bottom: 4%;
+}
+
+.contact .g-pad {
+    padding-top: 7%;
+}
+
+.contact .info h2 {
+    line-height: 50px;
+    color: #E91C1C;
+    font-size: 31px;
+    font-weight: 500;
+    margin-top: 12.5%;
+}
+
+.contact .info p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 7px;
+    padding-bottom: 13px;
+}
+
+#btns {
+    outline: none;
+
+}
+
+.cnt {
+    width: 110%;
+    min-height: 380px;
+    border: 1px solid #e1e1e1;
+    margin-top: 11.5%;
+    margin-left: 6%;
+}
+
+footer {
+    background-color: #E91C1C;
+    text-align: right;
+    color: #fff;
+    padding: 15px 50px;
+}
+
+footer p {
+    padding-top: 5px;
+
+}

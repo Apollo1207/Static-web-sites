@@ -1,0 +1,265 @@
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #262626;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    padding-right: 33px;
+}
+
+.nav-link {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    outline: none;
+    padding-top: 42px;
+    padding-bottom: 43px;
+
+}
+
+.nav-link:hover {
+    color: #ff6760;
+    transition: 0.3s;
+}
+
+.offer {
+    background: #2a2a2a;
+}
+
+.offer-title {
+    padding-top: 60px;
+}
+
+.offer-title h1 {
+    font-size: 54px;
+    color: #d9d9d9;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.offer-title p {
+    font-size: 35px;
+    color: #d9d9d9;
+    font-weight: 300;
+    text-align: center;
+}
+
+button {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ff6760;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-self: center;
+}
+
+button:hover {
+    background: #f27b76;
+    color: #d9d9d9;
+    transition: 0.5s ease;
+}
+
+button:active {
+    outline: none !important;
+    border: none !important;
+    border: 0 !important;
+}
+
+button:focus {
+    outline: none !important;
+    border: none !important;
+    border: 0 !important;
+}
+
+#title-button {
+    font-size: 14px;
+    padding: 15px 45px;
+    margin-top: 28px;
+    margin-bottom: 60px;
+
+}
+
+.advantages {
+    background: #f8f8f8;
+    padding-top: 90px;
+    padding-bottom: 85px;
+}
+
+h4,
+h6 {
+    color: #4c4c4c;
+}
+
+p {
+    letter-spacing: 0.05em;
+    color: #4c4c4c;
+}
+
+.advantages h4 {
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.advantages p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.featured {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.featured-text h6 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.featured-text p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.featured-buttons {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#featured-button_1 {
+    font-size: 12px;
+    padding: 9px 19px;
+    margin-right: 7px;
+}
+
+#featured-button_2 {
+    font-size: 12px;
+    padding: 9px 19px;
+    margin-right: 7px;
+}
+
+#featured-button_3 {
+    font-size: 12px;
+    padding: 9px 19px;
+    margin-right: 7px;
+}
+
+#featured-button_4 {
+    font-size: 12px;
+    padding: 9px 19px;
+    margin-right: 7px;
+}
+
+.col-md-3 {
+    margin-bottom: 13px;
+}
+
+.contacts {
+    background: #313131;
+    padding-bottom: 60px;
+}
+
+.contacts-text h6 {
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #e0e0e0;
+}
+
+.contacts-text p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #9b9b9b;
+}
+
+.info,
+.address,
+.phone,
+.featured-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    padding-bottom: 15px;
+}
+
+.address p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bebebe;
+    padding-right: 40px;
+    padding-left: 5px;
+}
+
+.phone p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bebebe;
+    padding-left: 5px;
+}
+
+.social-media a {
+    padding: 9px 12px;
+    border-radius: 100px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+#twitter {
+    background: #63bee0;
+}
+
+#facebook {
+    background: #5883c0;
+}
+
+#pinterest {
+    background: #d35051;
+}
+
+
+.fab {
+    justify-content: center;
+}
+
+footer {
+    background: #2c2c2c;
+}
+
+footer p {
+    font-size: 14px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    font-weight: 400;
+    color: #bebebe;
+}
